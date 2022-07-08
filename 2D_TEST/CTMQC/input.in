@@ -1,0 +1,28 @@
+&SYSTEM
+ TYP_CAL                = "CTMQC"
+ MODEL_POTENTIAL        = "TwoD_RJDI2014"
+ NEW_POTENTIAL          = 
+ N_DOF                  = 2
+ NSTATES                = 2
+ TYPE_DECO              = ""
+ JUMP_SEED              = 14
+ INITIAL_CONDITION_SEED =   
+/
+
+&DYNAMICS
+ FINAL_TIME      = 1000.0D0
+ DT              = 0.10D0
+ DUMP            = 100
+ INIT_BOSTATE    = 2
+ NTRAJ           = 1000
+ R_INIT          = 25.525D0, 0.0D0
+ K_INIT          = 0.D0, 0.D0
+ SIGMAR_INIT     = 11.364370140563072796590D0, 12.23521960580991000550D0
+ MASS_INPUT      = 1.D0, 1.D0
+/
+
+&EXTERNAL_FILES
+ POSITIONS_FILE   = ""
+ MOMENTA_FILE     = ""
+ OUTPUT_FOLDER    = "./"
+/

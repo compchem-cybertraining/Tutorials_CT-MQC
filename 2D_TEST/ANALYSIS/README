@@ -1,0 +1,11 @@
+TO BE COPIED AND LAUNCHED IN THE DIRECTORY EXACT_REF:
+*exact_dyn.sh    ---- bash script to generate an animated gif for the 2D CI 
+                      model showing the S0 and S1 densities.
+
+TO BE COPIED AND LAUNCHED IN EACH QC DIRECTORY:
+*calc_Ekin.f90   ---- fortran90 analysis code to compute the average 
+                      nuclear kinetic energy as function of time.
+*nucl_dyn.sh     ---- bash script to generate an animated gif for the 2D CI 
+                      model showing the trajectories and the nuclear density. 
+*plot_el_prop.sh ---- gnuplot script to generate a figure showing the BO populations 
+                      and coherences as functions of time.
