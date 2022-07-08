@@ -1,0 +1,26 @@
+&SYSTEM
+ TYP_CAL                = "EHREN"
+ MODEL_POTENTIAL        = "NaI"
+ NEW_POTENTIAL          = T
+ N_DOF                  = 1
+ NSTATES                = 2
+ INITIAL_CONDITION_SEED =   
+/
+
+&DYNAMICS
+ FINAL_TIME      = 8000.0D0
+ DT              = 0.10D0
+ DUMP            = 200
+ INIT_BOSTATE    = 2
+ NTRAJ           = 1000
+ R_INIT          = 4.99415D0
+ K_INIT          = 0.D0
+ SIGMAR_INIT     = 0.14403730276727829056D0
+ MASS_INPUT      = 35735.4387417390195740022D0
+/
+
+&EXTERNAL_FILES
+ POSITIONS_FILE   = ""
+ MOMENTA_FILE     = ""
+ OUTPUT_FOLDER    = "./"
+/
