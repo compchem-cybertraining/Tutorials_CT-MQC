@@ -1,0 +1,20 @@
+TO BE COPIED AND LAUNCHED IN THE DIRECTORY EXACT_REF:
+*exact_dyn.sh    ---- bash script to generate an animated gif for NaI 
+                      showing the time evolution of the nuclear density and of the TDPES.
+*exact_coeff.sh  ---- bash script to generate an animated gif for NaI 
+                      showing the time evolution of the elements of the electronic density matrix.
+
+TO BE COPIED AND LAUNCHED IN EACH QC DIRECTORY:
+*calc_Ekin.f90   ---- fortran90 analysis code to compute the average 
+                      nuclear kinetic energy as function of time.
+*nucl_dyn.sh     ---- bash script to generate an animated gif for NaI 
+                      showing the evolution of the trajectories on the adiabatic BO PESs. 
+*traj_on_PES.sh  ---- bash script to genarate a figure where the chosen trajectory 
+                      is plotted at all times vs, the adiabatic BO PESs.
+*plot_el_prop.sh ---- gnuplot script to generate a figure showing the BO populations 
+                      and coherences as functions of time.
+*phasespace.sh   ---- bash script to generate an animated gif for NaI 
+                      showing the evolution of the trajectories in phase space.
+*coeff_dyn.sh    ---- bash script to generate an animated gif for NaI 
+                      showing the time evolution of the electrpnic density matrix 
+                      as function of the trajectory positions.
